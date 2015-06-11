@@ -8,6 +8,7 @@
 // not exceed four million, find the sum of the even-valued terms.
 package main
 
+// Naive solution: compute the Fibonacci sequence and check for evenness.
 func main() {
 	var sum int = 0
 	var old int = 1

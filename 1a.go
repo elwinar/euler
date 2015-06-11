@@ -4,6 +4,8 @@
 // Find the sum of all the multiples of 3 or 5 below 1000.
 package main
 
+// Naive solution: loop over all numbers in range and check wheter it
+// should be added to the sum using modulo.
 func main() {
 	var sum int = 0
 	for n := 0; n < 1000; n++ {
