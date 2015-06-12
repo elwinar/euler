@@ -8,9 +8,6 @@
 // not exceed four million, find the sum of the even-valued terms.
 package main
 
-// The even terms of the Fibonacci sequence can be computed using the 
-// following sequence: E(n) = 4*E(n-1) + E(n-2), so we don't need to
-// compute the Fibonacci sequence but only its even terms.
 func main() {
 	var sum int = 0
 	var old int = 0
